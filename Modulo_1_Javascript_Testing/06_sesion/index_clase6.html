@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Notas Guardadas</h1>
+    <textarea id="nota"></textarea>
+    <br/>
+    <button onclick="guardarNota()">Guardar Nota</button>
+    <button onclick="borrarNota()">Borrar Nota</button>
+    <h2>Lista de Notas</h2>
+    <ul id="listaNotas"></ul>
+
+    <script>
+        function guardarNota(){
+            const texto = document.getElementById("nota").value.trim();
+            if (texto === "") return;
+
+            let notas = JSON.parse(localStorage.getItem("notas")) || [];
+            notas.push(texto);
+
+            localStorage.setItem("notas", JSON.stringify(notas));
+            document.getElementById("nota").value = "";
+            mostrarNotas();
+        }
+
+        function mostrarNotas() {
+            const lista = document.getElementById("listaNotas");
+            lista.innerHTML = "";
+            let notas = JSON.parse(localStorage.getItem("notas")) || [];
+
+            notas.forEach((nota, index) => {
+                const li = document.createElement("li");
+                li.innerHTML = `${nota} <span class="delete-btn" onclick="borrarNota(${index})"> <class style="color: red; font-weight: bold; font-size: x-large;"> X </class></span>`;
+                lista.appendChild(li);
+            });
+        }
+
+        function borrarNotas() {
+            localStorage.removeItem("notas");
+            mostrarNotas();            
+        }
+
+        function borrarNota(index) {
+            let notas = JSON.parse(localStorage.getItem("notas") || []);
+            notas.splice(index, 1);
+            localStorage.setItem("notas", JSON.stringify(notas));
+            mostrarNotas();
+        }
+
+        //cargar notas al iniciar la páagina
+        mostrarNotas();
+
+
+        //Manejo de console
+        try{
+            let resultado = 10 / 0;
+            console.log ("Resultado", resultado);
+            throw new Error("Este es un error personalizado");
+        } catch(error) {
+            console.warm("Se ha producido un error: ", error.message);
+        } finally {
+            console.log("Este código se ejecuta siempre.");
+        }
+
+        //log
+        console.log("Esto es un mensaje.");
+        //error
+        console.log("Esto es un error.");
+        //warm
+        console.warn("Esto es una advertencia");
+        //table
+        console.table([{ nombre: "Anna", edad: 30 }, { nombre: "Luis", edad: 25 }]);
+        
+    </script>
+</body>
+</html>
