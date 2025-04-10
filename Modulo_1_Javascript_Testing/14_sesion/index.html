@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 14 - TDD</title>
+</head>
+<body>
+    <h1>Clase 14: INTRO TDD</h1>
+    <script>
+        function expect(actual) {
+            return
+            toBe(expected) {
+                if (actual === expected){
+                    console.log("Paso");
+                } else  { 
+                    console.error(`Fallo: esperando ${expected}, recibido ${actual}`)
+                }
+            }
+        }
+
+        function esPar(n) {
+            if (typeof n != "number") return false;
+            return n % 2 === 0;
+        }
+        
+        expect(esPar(2)).toBe(true);
+        expect(esPar(3)).toBe(false);
+
+        expect(esPar(5)).toBe(true);
+
+        expect(esPar("hola me perdi")).toBe(true);
+    </script>
+    
+</body>
+</html>

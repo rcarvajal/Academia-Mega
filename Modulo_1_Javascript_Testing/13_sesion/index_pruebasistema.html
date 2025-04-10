@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ font-family: Arial, Helvetica, sans-serif;}
+        input, button{margin-top: 10px; display: block;}
+        .error{color: red;}
+    </style>
+</head>
+<body>
+    <h1>prueba de sistema</h1>
+    <form id="form">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="correo" placeholder="Correo">
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje"></p>
+
+    <script>
+        function esCorreoValido(email) {
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return regex.test(email);
+        }
+
+        document.getElementById("form").addEventListener("submit", (e)=>{
+            e.preventDefault();
+
+            const nombre = document.getElementById("nombre").value;
+            const correo = document.getElementById("correo").value;
+            const mensaje = document.getElementById("mensaje");
+
+            if (!nombre || !esCorreoValido(correo)){
+                mensaje.textContent ="Datos invalidos";
+                mensaje.className = "error";
+            } else {
+                mensaje.textContent =`Graicas por registrarte, ${nombre}!!`;
+                mensaje.className = "";
+            }
+        })
+    </script>
+</body>
+</html>
