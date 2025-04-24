@@ -1,0 +1,32 @@
+<!--
+<h1>Este es el componente principal</h1>
+<h2>Estos son los componentes secundarios</h2>
+<div class="container">
+  <app-card></app-card>
+  <app-tarjeta></app-tarjeta>
+</div>
+-->
+
+<h1>Directivas estructurales</h1>
+<h2>*ngIf</h2>
+<div class="container">
+
+  <div *ngIf="isVisible">
+    Este mensaje se muestra si isVisible true
+  </div>
+  <button (click)="isVisible=!isVisible">Mostrar/Ocultar</button>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let fruta of frutas; let i = index">
+      {{i+1}}.- {{fruta}}
+    </li>
+  </ul>
+</div>
+
+<div>
+  asdasda
+  <app-todo></app-todo>
+</div>
+<router-outlet />
