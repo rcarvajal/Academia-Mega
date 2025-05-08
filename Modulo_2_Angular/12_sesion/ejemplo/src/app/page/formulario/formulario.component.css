@@ -15,6 +15,19 @@ input{
   width: 100%;
   box-sizing: border-box;
 }
+button{
+  padding: 10px;
+  width: 100%;
+  background-color: aqua;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:disabled{
+  background-color: #ccc;
+  cursor: not-allowed;
+}
 .error{
   color: red;
   font-size: 13px;

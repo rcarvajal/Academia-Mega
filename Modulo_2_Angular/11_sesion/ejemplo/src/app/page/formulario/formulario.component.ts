@@ -17,5 +17,6 @@ export class FormularioComponent {
 
   onSubmit(){
     console.log("Datos del formulario: ", this.usuario);
+    alert("Formulario enviado correctamente");
   }
 }

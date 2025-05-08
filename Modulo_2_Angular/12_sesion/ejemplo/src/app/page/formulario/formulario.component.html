@@ -26,5 +26,14 @@
       </div>
     </div>
 
+    <button [disabled]="formulario.invalid" type="submit"
+    >Enviar</button>
+
   </form>
+
+  <h1>Datos Actuales</h1>
+  <pre>
+    {{usuario | json}}
+  </pre>
+
 </div>
