@@ -1,0 +1,18 @@
+dotnet new console -n HelloWord
+dotnet run
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+dotnet new webapi -n PrimeraAPI
+No es brujería es tecnología
+8:38
+dotnet new webapi -n PrimeraAPI
+
+dotnet run
+
+-- instalar extension
+Thunder Client
+https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+
+https://localhost:PORT/swagger/index.html
