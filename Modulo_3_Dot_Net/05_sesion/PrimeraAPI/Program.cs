@@ -1,4 +1,5 @@
 using Asp.Versioning.Conventions;
+using PrimeraAPI.Controllers;
 using PrimeraAPI.Data;
 using PrimeraAPI.Models;
 
@@ -6,6 +7,9 @@ using PrimeraAPI.Models;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<ProductoService>();
+builder.Services.AddScoped<UsuarioService>();
+
+// middleware
 
 builder.Services.AddApiVersioning(options =>
 {
