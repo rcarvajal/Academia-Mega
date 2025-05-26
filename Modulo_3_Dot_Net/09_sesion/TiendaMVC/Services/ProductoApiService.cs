@@ -15,10 +15,9 @@ namespace TiendaMVC.Services
         public async Task<Producto?> GetByIdAsync(int id) =>
             await _http.GetFromJsonAsync<Producto>($"api/v1.0/productos/{id}");
 
-
         public async Task<Producto?> CreateAsync(Producto p)
         {
-            var response = await _http.PostAsJsonAsync("api/productos", p);
+            var response = await _http.PostAsJsonAsync("api/v1.0/productos", p);
             if (!response.IsSuccessStatusCode) return null;
             return await response.Content.ReadFromJsonAsync<Producto>();
         }
@@ -31,9 +30,8 @@ namespace TiendaMVC.Services
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var response = await _http.DeleteAsJsonAsync(($"api/v1.0/productos/{id}"), p);
+            var response = await _http.DeleteAsync(($"api/v1.0/productos/{id}"));
             return response.IsSuccessStatusCode;
-        }   
-
+        }
     }
 }
