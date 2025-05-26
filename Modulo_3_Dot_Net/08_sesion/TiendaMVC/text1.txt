@@ -1,0 +1,21 @@
+dotnet new mvc -n TiendaMVC
+
+-----------------------------------------------------------------------------------------
+para saber que version de dotnetnuke tenemos instalada
+dotnet --list-sdks
+dotnet --list-runtimes
+
+-----------------------------------------------------------------------------------------
+No es brujería es tecnología
+https://learn.microsoft.com/es-es/dotnet/core/versions/selection
+
+-----------------------------------------------------------------------------------------
+No es brujería es tecnología
+https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-9.0&tabs=visual-studio
+
+razor pages
+
+-----------------------------------------------------------------------------------------
+No es brujería es tecnología
+9:31
+https://github.com/josejesusguzman/Academia-Mega-dotnet
