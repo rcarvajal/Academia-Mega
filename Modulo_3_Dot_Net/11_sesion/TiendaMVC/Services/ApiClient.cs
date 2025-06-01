@@ -21,14 +21,14 @@ namespace TiendaMVC.Services
         }
 
         public Task<List<Producto>> GetProductosAsync()
-            => _http.GetFromJsonAsync<List<Producto>>("api/productos")!;
+            => _http.GetFromJsonAsync<List<Producto>>("api/v1.0/productos")!;
 
 
 
         // Autenticación
         public async Task<bool> LoginAsync(User user)
         {
-            var response = await _http.PostAsJsonAsync("/api/auth/login", user);
+            var response = await _http.PostAsJsonAsync("/api/v1.0/auth/login", user);
             if (!response.IsSuccessStatusCode) return false;
             var obj = await response.Content.ReadFromJsonAsync<TokenResponse>();
             _context.HttpContext!.Session.SetString("JWToken", obj!.Token);
@@ -37,7 +37,7 @@ namespace TiendaMVC.Services
 
         public async Task<bool> RegisterAsync(User user)
         {
-            var response = await _http.PostAsJsonAsync("/api/auth/registro", user);
+            var response = await _http.PostAsJsonAsync("/api/v1.0/auth/registro", user);
             if (!response.IsSuccessStatusCode) return false;
             var obj = await response.Content.ReadFromJsonAsync<TokenResponse>();
             _context.HttpContext!.Session.SetString("JWToken", obj!.Token);

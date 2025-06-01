@@ -2,6 +2,7 @@ using TiendaMVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddHttpContextAccessor();
 // Habilitamos las sesiones
 builder.Services.AddSession(options =>
@@ -11,7 +12,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-builder.Services.AddHttpClient<IProductoApiService, ProductoApiService>(client =>
+builder.Services.AddHttpClient<ApiClient>(client =>
 {
     client.BaseAddress = new Uri("http://localhost:5053");
 });
@@ -30,15 +31,16 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseRouting();
-app.UserSession();
+app.UseSession();
 app.UseAuthorization();
 
 app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Account}/{action=Login}/{id?}")
     .WithStaticAssets();
 
 
