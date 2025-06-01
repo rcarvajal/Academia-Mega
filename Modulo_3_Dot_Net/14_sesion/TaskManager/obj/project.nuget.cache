@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NfARUpMXF38=",
+  "success": true,
+  "projectFilePath": "C:\\Megacable\\GitHub\\Academia-Mega\\Modulo_3_Dot_Net\\14_sesion\\TaskManager\\TaskManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

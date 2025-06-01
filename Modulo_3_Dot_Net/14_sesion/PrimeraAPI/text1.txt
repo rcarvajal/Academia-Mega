@@ -1,0 +1,42 @@
+dotnet new console -n HelloWord
+dotnet run
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+dotnet new webapi -n PrimeraAPI
+No es brujería es tecnología
+8:38
+dotnet new webapi -n PrimeraAPI
+
+dotnet run
+
+-- instalar extension
+Thunder Client
+https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+
+https://localhost:PORT/swagger/index.html
+
+
+
+dotnet add package Asp.Versioning.Mvc.ApiExplorer --version 7.1.0
+
+1. Install Required NuGet Packages
+dotnet add package Asp.Versioning.Mvc
+dotnet add package Asp.Versioning.Mvc.ApiExplorer  # For Swagger integration
+
+For Minimal APIs, install:
+dotnet add package Asp.Versioning.Http
+
+
+
+dotnet add package System.Data.SqlClient
+
+dotnet add package Microsoft.Data.SqlClient
+
+
+MEGANG-384
+usuario: usuarioTiendaDB
+pass
+t2A3ix71APgK.
+zus-eqzy-vmz
