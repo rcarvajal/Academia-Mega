@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tkv5mgHxY68=",
+  "dgSpecHash": "ETt9gj04Ujo=",
   "success": true,
   "projectFilePath": "C:\\Megacable\\GitHub\\Academia-Mega\\Modulo_3_Dot_Net\\16_sesion\\TaskManagerClient\\TaskManagerClient.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,10 @@
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.5\\microsoft.aspnetcore.components.web.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.5\\microsoft.aspnetcore.components.webassembly.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\9.0.5\\microsoft.aspnetcore.components.webassembly.devserver.9.0.5.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.3.0\\microsoft.aspnetcore.cors.2.3.0.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.3.0\\microsoft.aspnetcore.http.extensions.2.3.0.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.metadata\\9.0.5\\microsoft.aspnetcore.metadata.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
@@ -28,8 +32,11 @@
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.jsinterop\\9.0.5\\microsoft.jsinterop.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.5\\microsoft.jsinterop.webassembly.9.0.5.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.net.http.headers\\2.3.0\\microsoft.net.http.headers.2.3.0.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.5\\microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.5\\microsoft.net.sdk.webassembly.pack.9.0.5.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
+    "C:\\Users\\rcarvajal\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.5.nupkg.sha512"
   ],
   "logs": []
