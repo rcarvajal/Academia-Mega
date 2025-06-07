@@ -1,0 +1,12 @@
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\bin\Debug\net9.0\TaskManager.Shared.deps.json
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\bin\Debug\net9.0\TaskManager.Shared.dll
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\bin\Debug\net9.0\TaskManager.Shared.pdb
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.AssemblyInfoInputs.cache
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.AssemblyInfo.cs
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.csproj.CoreCompileInputs.cache
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.sourcelink.json
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.dll
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\refint\TaskManager.Shared.dll
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\TaskManager.Shared.pdb
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\18_sesion\TaskManager.Shared\obj\Debug\net9.0\ref\TaskManager.Shared.dll
