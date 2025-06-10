@@ -1,0 +1,11 @@
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+dotnet remove package Microsoft.AspNetCore.Authentication.JwtBearer --project "PrimeraAPI/PrimeraAPI.csproj"
+dotnet add "PrimeraAPI/PrimeraAPI.csproj" package Microsoft.AspNetCore.Authentication.JwtBearer --version 8.0.0
+
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+
+dotnet clean
+dotnet build
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 8.0.0
