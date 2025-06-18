@@ -1,0 +1,1 @@
+C:\Megacable\GitHub\Academia-Mega\Modulo_3_Dot_Net\23_sesion\skyCast\bin\Release\net9.0\publish\web.config

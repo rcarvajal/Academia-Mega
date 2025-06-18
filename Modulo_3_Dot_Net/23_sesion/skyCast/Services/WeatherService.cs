@@ -7,12 +7,12 @@ public class WeatherService
 {
     private readonly HttpClient _http;
     private readonly string _key;
-    private const string baseURL = "https://openweathermap.org/data/2.5/";
+    private const string baseURL = "https://api.openweathermap.org/data/2.5";
 
     public WeatherService(HttpClient http, IConfiguration config)
     {
         _http = http;
-        _key = config["OpenWeather.Key"] ?? "";
+        _key = config["OPENWEATHER_KEY"] ?? "046c9712c94851ac11db6b4139309181";
     }
 
     public async Task<WeatherDto?> GetByCityAsync(string city)

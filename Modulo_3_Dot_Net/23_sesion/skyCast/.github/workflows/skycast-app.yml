@@ -1,0 +1,29 @@
+name: Build & Deploy BlazorApp
+
+on:
+    push:
+        branches: ["main"]
+    
+env: 
+    DOTNET_VERSION: '8.0.x'
+    NODE_VERSION: '22.x'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+    
+        steps:
+            # 1. Descargar el código
+            - uses: actions/checkout@v4
+
+            # 2. Instalar .NET
+
+            # 3. Pacquetes Nuget
+
+            # Instalar Node
+
+            # Restore an publish
+
+            # Artifact
+
+            # Despliegue
