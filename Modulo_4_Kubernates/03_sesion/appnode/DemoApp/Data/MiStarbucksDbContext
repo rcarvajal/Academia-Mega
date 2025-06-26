@@ -1,0 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+
+namespace DemoApp.Data;
+
+public class MiStarbucksDbContext : DbContext
+{
+    public MiStarbucksDbContext(DbContextOptions<MiStarbucksDbContext> options)
+        : base(options)
+    {
+    }
+
+    // Define DbSets for your entities here
+    // public DbSet<YourEntity> YourEntities { get; set; }
+    
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        // Configure your entity mappings here
+    }
+}
