@@ -8,6 +8,8 @@ services:
       - mongo-data:/data/db
     networks:
       - app-net
+    environment:
+      - net-backend-mongo
 
   backend:
     build:
@@ -18,7 +20,10 @@ services:
       - ./backend/src/.env
     depends_on:
       - mongodb
-    
+    networks:
+      - net-backend-mongo
+      - net-backend-frontend
+
   frontend:
     build:
       context: ./frontend
